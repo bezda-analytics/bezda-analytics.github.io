@@ -187,7 +187,6 @@ sudo apt-get install python3.8
    ```
    git clone https://github.com/bezda-analytics/bezda-analytics.github.io
    ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
