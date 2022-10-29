@@ -178,6 +178,7 @@ You can find Python installers for Windows [here](https://www.python.org/downloa
 
 * Instructions for Beautiful Soup 4 [here](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Installation
 
