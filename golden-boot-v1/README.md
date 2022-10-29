@@ -89,9 +89,10 @@
     <img src="images/golden-boot-project-example-screenshot1.png" alt="Logo" width="775" height="654">
   </a>
 </div>
-[![Golden Boot Plot Generator Screenshot][project-screenshot]](images/golden-boot-project-example-screenshot1.png)
 
-Generate interactive plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons
+
+Generate interactive plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons. <br />
+<a href="https://bezda-analytics.github.io/golden-boot-v1/Haaland/">View Demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
