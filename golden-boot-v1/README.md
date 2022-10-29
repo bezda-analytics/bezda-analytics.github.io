@@ -266,7 +266,11 @@ player_fbref_id = { 'Erling Haaland': '1f44ac21',\
                     'Harry Kane': '21a66f6a' }
 ```
 
-The `url` parameter contains the url to a site containing a table of the winners of the Golden Boot award. The `page_title` parameter contains the title of the html page which is also used as the title of the plot inside the page. Note also that `ylabel_color` determines the color of the title, y-axis numbers and horizontal gridlines, while `xlabel_color` determines the color of the x-axis numbers, unselected legend labels, and axis labels. You can also drop rows from the beginning of the winners table by setting `rows_to_drop`. 
+The `url` parameter contains the url to a site containing a table of the winners of the Golden Boot award. The `page_title` parameter contains the title of the html page which is also used as the title of the plot inside the page. The `team_colors` list contains the colors used for the lines in the plot and the legend where each player in the legend and corresponding line is color coded according to the team the player belonged to when they won the award. The "light" colors are used for highlighting players and their respective lines.
+
+Note also that `ylabel_color` determines the color of the title, y-axis numbers and horizontal gridlines, while `xlabel_color` determines the color of the x-axis numbers, unselected legend labels, and axis labels. 
+
+You can drop rows from the beginning of the winners table by setting `rows_to_drop`. 
 
 The `additional_player` parameters allow for adding the stats/data of an additional player for a season where the player did not win the award. When adding a player, make sure that the player's name and FBref id are in the `player_fbref_id` list. The player's FBref id can be found in the url of the players page on FBref.com. 
 
