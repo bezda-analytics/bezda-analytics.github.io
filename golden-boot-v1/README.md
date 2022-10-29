@@ -134,7 +134,7 @@ You will need a few things installed to execute the code inside the notebook:
 OR
 
 1. [Anaconda](#quick-setup)
-2. [Conda](#quick-setup) (recommended)
+2. [Conda](#quick-setup) (optional, recommended)
 
 You can install all of these individually by following the steps in the links above. 
 
