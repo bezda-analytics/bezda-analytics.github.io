@@ -172,11 +172,11 @@ sudo apt-get install python3.8
 
 * [Installation instructions for pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 
-* [Instructions for matplotlib](https://matplotlib.org/stable/users/installing/index.html)
+* [Installation instructions for matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
-* [Instructions for numpy](https://numpy.org/install/)
+* [Installation instructions for numpy](https://numpy.org/install/)
 
-* [Instructions for Beautiful Soup 4](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
+* [Installation instructions for Beautiful Soup 4](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
