@@ -271,7 +271,7 @@ Note also that `ylabel_color` determines the color of the title, y-axis numbers 
 
 You can drop rows from the beginning of the winners table by setting `rows_to_drop`. 
 
-The `additional_player` parameters allow for adding the stats/data of an additional player for a season where the player did not win the award. When adding a player, make sure that the player's name and FBref id are in the `player_fbref_id` list. The player's FBref id can be found in the url of the players page on FBref.com. 
+The `additional_player` parameters allow for adding the stats/data of an additional player for a season where the player did not win the award. When adding a player, make sure that to add the player's name and FBref id to the `player_fbref_id` list if not already in the list. The player's FBref id can be found in the url of the players page on FBref.com. 
 
 Example:
 
