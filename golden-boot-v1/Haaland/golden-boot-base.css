@@ -170,7 +170,7 @@ body {
 
   /* plot horizontal grid lines */
   g#matplotlib\.axis_2 > g > g:first-child > path {
-    opacity: 0.5;
+    opacity: 0.5 !important;
     stroke:var(--yaxes-color) !important;
   }
 
