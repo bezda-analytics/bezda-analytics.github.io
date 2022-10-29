@@ -85,8 +85,8 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/images/golden-boot-project-example-screenshot1.png">
-    <img src="images/golden-boot-project-example-screenshot1.png" alt="Logo">
+  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/images/project-screenshot1.png">
+    <img src="images/project-screenshot1.png" alt="Logo">
   </a>
 </div>
 <br />
