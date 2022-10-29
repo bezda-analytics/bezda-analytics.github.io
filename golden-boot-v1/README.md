@@ -182,6 +182,7 @@ You can find Python installers for Windows [here](https://www.python.org/downloa
 ## Installation
 
 1. Clone the repo
+
    ```
    git clone https://github.com/bezda-analytics/bezda-analytics.github.io
    ```
@@ -191,7 +192,7 @@ You can find Python installers for Windows [here](https://www.python.org/downloa
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
+(How to generate plots)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
