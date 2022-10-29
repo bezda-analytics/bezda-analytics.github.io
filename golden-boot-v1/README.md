@@ -245,7 +245,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 bezda - bezda.management@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/bezda-analytics/bezda-analytics.github.io](https://github.com/bezda-analytics/bezda-analytics.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
