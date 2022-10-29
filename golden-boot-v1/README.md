@@ -136,7 +136,9 @@ OR
 1. [Anaconda](#quick-setup)
 2. [Conda](#quick-setup) (recommended)
 
-You can install all of these individually by following the steps in the links above. Alternatively, you can get most if not all of these things by installing anaconda (or miniconda). If the latter option is chosen, installing the conda package manager is recommended.
+You can install all of these individually by following the steps in the links above. 
+
+Alternatively, you can get most if not all of these things by installing anaconda (or miniconda). If the latter option is chosen, installing the conda package manager is recommended.
 
 ### Quick setup
 
