@@ -118,7 +118,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-All you need from this repository to generate these plots are the files in the [\Base](https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/Base) folder of this repository. This folder contains a javascript file that adds interactivity to the plot, a static css file for styling and most importantly, **a (Jupyter) notebook that generates the plot** (specifically, an html file containing the plot) and a custom css file for data-dependent styling of plot elements.
+All you need from this repository to generate these plots are the files in the [\Base](https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/Base) folder of this repository. This folder contains a javascript file that adds interactivity to the plot, a static css file for styling, and most importantly, **a (Jupyter) notebook that generates the plot** (specifically, an html file containing the plot) and a custom css file for data-dependent styling of plot elements.
 
 ## Prerequisites
 
