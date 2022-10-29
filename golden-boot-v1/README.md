@@ -156,8 +156,6 @@ Also, you can mention the particular version of Python you want to install, show
 
 ```
 sudo apt-get install python3.8 
-#or 
-sudo apt-get install python3.9
 ```
 
 #### Windows:
