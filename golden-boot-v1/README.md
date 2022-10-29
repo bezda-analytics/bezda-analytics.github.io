@@ -149,11 +149,13 @@ You can install all of these individually by following the steps in the links ab
 
 The following command could be used to install the latest version of Python on almost every Linux system.
 
-```sudo apt-get install python3
+```
+sudo apt-get install python3
 ```
 Also, you can mention the particular version of Python you want to install, shown below :
 
-```sudo apt-get install python3.8 
+```
+sudo apt-get install python3.8 
 #or 
 sudo apt-get install python3.9
 ```
