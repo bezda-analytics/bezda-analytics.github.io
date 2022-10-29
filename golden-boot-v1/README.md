@@ -193,7 +193,90 @@ You can find Python installers for Windows [here](https://www.python.org/downloa
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-(How to generate plots)
+To generate a new plot (the html along with the accompanying css file), open the generator notebook (`.ipynb` file) and edit the second and third code cells:
+
+```
+#Filenames for html and css file creation and saving
+html_filename = "index.html"
+generated_css_filename = "style.css"
+base_css_filename = "golden-boot-base.css"
+javascript_filename = 'golden-boot.js'
+
+#Parameters used to customize generated html and css contents
+page_title = 'Premier League Golden Boot Winners'
+page_description = 'Golden Boot Winners Goals: Running Total'
+background_image_url = 'https://pbs.twimg.com/media/D5G92AqW4AEaJlk.jpg:large'
+gradient_color = "#f4ab49"
+xlabel_color = "#2f4f4f"
+ylabel_color = "white"
+gridline_color = ylabel_color
+team_colors = { 'Blackburn Rovers': ['#009EE0', '#FFFFFF'],\
+                'Newcastle United': ['#241F20', '#FFFFFF'],\
+                'Coventry City': ['#77bbff', '#FFFFFF'],\
+                'Liverpool': ['#C8102E', '#F6EB61'],\
+                'Manchester United': ['#DA291C', '#FBE122'],\
+                'Leeds United': ['#1D428A', '#FFCD00'],\
+                'Sunderland': ['#000000', '#ff0000'],\
+                'Chelsea': ['#034694', '#dba111'],\
+                'Arsenal': ['#db0007', '#9c824a'],\
+                'Manchester City': ['#6CABDD', '#FFFFFF'],\
+                'Tottenham Hotspur': ['#132257', '#FFFFFF'],\
+                'Leicester City': ['#003090', '#FDBE11'] }
+```
+
+and also
+
+```
+#Parameters for adding a player's stats for non-Golden-Boot-winning season
+add_additional_player = True
+highlight_additional_player = False
+
+#Make sure name and team matches Golden Boot Winners table. 
+#Also the dash in the date needs to be the special dash '–' not the regular one '-'
+additional_player_info = {'name': 'Mohamed Salah', 'team': 'Liverpool', 'season': '2022–23'}
+rows_to_drop = 3
+
+#Data source url related stuff
+url = 'https://en.wikipedia.org/wiki/Premier_League_Golden_Boot'
+src_ending_str = '-Match-Logs'
+#The player id's can be found in the url of the player's page on FBREF.com
+player_fbref_id = { 'Erling Haaland': '1f44ac21',\
+                    'Alan Shearer': '438b3a51',\
+                    'Chris Sutton': '83c38e36',\
+                    'Dion Dublin': 'a0886d18',\
+                    'Michael Owen': '88b3f52c',\
+                    'Dwight Yorke': '2d0a99d3',\
+                    'Jimmy Floyd Hasselbaink': 'db8a04d1',\
+                    'Kevin Phillips': '23d97ca1',\
+                    'Thierry Henry': 'c0c5ee74',\
+                    'Ruud van Nistelrooy': '80a30989',\
+                    'Didier Drogba': '945dea33',\
+                    'Cristiano Ronaldo': 'dea698d9',\
+                    'Nicolas Anelka': '931ed5e9',\
+                    'Carlos Tevez': 'c1a26d43',\
+                    'Dimitar Berbatov': 'f5781978',\
+                    'Robin van Persie': '3fcab3a8',\
+                    'Luis Suárez': 'a6154613',\
+                    'Sergio Agüero': '4d034881',\
+                    'Pierre Emerick Aubameyang': 'd5dd5f1f',\
+                    'Sadio Mané': 'c691bfe2',\
+                    'Jamie Vardy': '45963054',\
+                    'Son Heung min': '92e7e919',\
+                    'Mohamed Salah': 'e342ad68',\
+                    'Harry Kane': '21a66f6a' }
+```
+
+The `url` parameter contains the url to a site containing a table of the winners of the Golden Boot award. The `page_title` parameter contains the title of the html page which is also used as the title of the plot inside the page. Note also that `ylabel_color` determines the color of the title, y-axis numbers and horizontal gridlines, while `xlabel_color` determines the color of the x-axis numbers, unselected legend labels, and axis labels. You can also drop rows from the beginning of the winners table by setting `rows_to_drop`. 
+
+The `additional_player` parameters allow for adding the stats/data of an additional player for a season where the player did not win the award. When adding a player, make sure that the player's name and FBref id are in the `player_fbref_id` list. The player's FBref id can be found in the url of the players page on FBref.com. 
+
+Example:
+
+<p align="left">
+  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/images/fbref-id-example.png">
+      <img src="images/fbref-id-example.png" alt="fbref-id-example.png">
+  </a>
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
