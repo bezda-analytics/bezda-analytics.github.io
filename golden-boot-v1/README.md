@@ -120,22 +120,32 @@
 
 All you need from this repository to generate these plots are the files in the [\Base](https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/Base) folder of this repository. This folder contains a javascript file that adds interactivity to the plot and a static css file for styling and most importantly, **a (Jupyter) notebook that generates the plot** (specifically, an html file containing the plot) and a custom css file for data-dependent styling of plot elements.
 
-### Prerequisites
+## Prerequisites
 
 You will need a few things installed to execute the code inside the notebook:
 
-1. Python 3.8+
-2. Jupyter (local install or cloud)
-3. pandas (python package)
-4. matplotlib (python package)
-5. numpy (python package)
-6. Beautiful Soup 4 (python package)
+1. [Python 3.8](#python-38)
+2. [Jupyter](#python-packages) (local install or cloud)
+3. [pandas](#python-packages) (python package)
+4. [matplotlib](#python-packages) (python package)
+5. [numpy](#python-packages) (python package)
+6. [Beautiful Soup 4](#python-packages) (python package)
+
+OR
+
+1. [Anaconda](#quick-setup)
+2. [Conda](#quick-setup) (recommended)
 
 You can install all of these individually by following the steps in the links above. Alternatively, you can get most if not all of these things by installing anaconda (or miniconda). If the latter option is chosen, installing the conda package manager is recommended.
 
-#### Python 3.8+
+### Quick setup
 
-**Linux:**
+* **Anaconda :** [instructions](https://docs.anaconda.com/anaconda/install/linux/)
+* **Conda :** [instructions](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
+### Python 3.8+
+
+#### Linux:
 
 The following command could be used to install the latest version of Python on almost every Linux system.
 
@@ -148,18 +158,28 @@ Also, you can mention the particular version of Python you want to install, show
 sudo apt-get install python3.9
 ```
 
-**Windows:**
+#### Windows:
 
 You can find Python installers for Windows [here](https://www.python.org/downloads/windows/). You can find installation instructions [here](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
 
-**Mac:**
+#### Mac:
 
 You can find Python installers for Windows [here](https://www.python.org/downloads/macos/). You can find installation instructions [here](https://www.dataquest.io/blog/installing-python-on-mac/).
 
+### Python packages
+
+* Installation instructions for Jupyter [here](https://jupyter.org/install)
+
+* Installation instructions for pandas [here](https://pandas.pydata.org/docs/getting_started/install.html)
+
+* Instructions for matplotlib [here](https://matplotlib.org/stable/users/installing/index.html)
+
+* Instructions for numpy [here](https://numpy.org/install/)
+
+* Instructions for Beautiful Soup 4 [here](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
 
 
-
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
