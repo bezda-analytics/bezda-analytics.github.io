@@ -192,7 +192,7 @@ sudo apt-get install python3.8
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To generate a new plot (the html along with the accompanying css file), open the generator notebook (`.ipynb` file) and edit the second and third code cells:
+To generate a new plot (the html along with the accompanying css), open the generator notebook (`.ipynb`) and edit the second and third code cells:
 
 ```
 #Filenames for html and css file creation and saving
