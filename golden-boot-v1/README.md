@@ -86,13 +86,13 @@
 
 <div align="center">
   <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/images/golden-boot-project-example-screenshot1.png">
-    <img src="images/golden-boot-project-example-screenshot1.png" alt="Logo" width="775" height="654">
+    <img src="images/golden-boot-project-example-screenshot1.png" alt="Logo">
   </a>
 </div>
 <br />
 <br />
 
-Generate interactive plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons. <br />
+ This Jupyter notebook project obtains data (from [FBRef.com](https://fbref.com/en/comps/9/Premier-League-Stats)) on the goals scored by each Premier League Golden Boot winner during the season the winner won the award. Then the data is used to generate running totals/cumulative sums plots so that the winner's goal scoring trajectories can be compared. <br />
 <a href="https://bezda-analytics.github.io/golden-boot-v1/Haaland/">View Demo</a>
 
 
@@ -118,28 +118,54 @@ Generate interactive plots of Premier League Golden Boot winners' running goal t
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+All you need from this repository to generate these plots are the files in the [\Base](https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/Base) folder of this repository. This folder contains a javascript file that adds interactivity to the plot and a static css file for styling and most importantly, **a (Jupyter) notebook that generates the plot** (specifically, an html file containing the plot) and a custom css file for data-dependent styling of plot elements.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You will need a few things installed to execute the code inside the notebook:
+
+1. Python 3.8+
+2. Jupyter (local install or cloud)
+3. pandas (python package)
+4. matplotlib (python package)
+5. numpy (python package)
+6. Beautiful Soup 4 (python package)
+
+You can install all of these individually by following the steps in the links above. Alternatively, you can get most if not all of these things by installing anaconda (or miniconda). If the latter option is chosen, installing the conda package manager is recommended.
+
+#### Python 3.8+
+
+**Linux:**
+
+The following command could be used to install the latest version of Python on almost every Linux system.
+
+```sudo apt-get install python3
+```
+Also, you can mention the particular version of Python you want to install, shown below :
+
+```sudo apt-get install python3.8 
+#or 
+sudo apt-get install python3.9
+```
+
+**Windows:**
+
+You can find Python installers for Windows [here](https://www.python.org/downloads/windows/). You can find installation instructions [here](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
+
+**Mac:**
+
+You can find Python installers for Windows [here](https://www.python.org/downloads/macos/). You can find installation instructions [here](https://www.dataquest.io/blog/installing-python-on-mac/).
+
+
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
