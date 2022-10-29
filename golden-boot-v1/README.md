@@ -29,24 +29,24 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<!-- PROJECT LOGO -->
+<br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1">
+    <img src="images/logo.png" alt="Logo" width="196" height="106">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Golden Boot Plot Generator V1</h3>
 
   <p align="center">
-    project_description
+    Generate plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://bezda-analytics.github.io/golden-boot-v1/Haaland/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/blob/main/golden-boot-v1/Base/Golden-Boot-Plot-Generator.ipynb">View Plot Generator</a>
   </p>
 </div>
 
