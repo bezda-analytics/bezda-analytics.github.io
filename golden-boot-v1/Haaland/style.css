@@ -1,0 +1,1545 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --xaxes-color: white;
+  --yaxes-color: white;
+  --gradient-color: #2a3334;
+  --Blackburn-Rovers-dark: #009EE0;
+  --Blackburn-Rovers-light: #FFFFFF;
+  --Newcastle-United-dark: #241F20;
+  --Newcastle-United-light: #FFFFFF;
+  --Coventry-City-dark: #77bbff;
+  --Coventry-City-light: #FFFFFF;
+  --Liverpool-dark: #C8102E;
+  --Liverpool-light: #F6EB61;
+  --Manchester-United-dark: #DA291C;
+  --Manchester-United-light: #FBE122;
+  --Leeds-United-dark: #1D428A;
+  --Leeds-United-light: #FFCD00;
+  --Sunderland-dark: #000000;
+  --Sunderland-light: #ff0000;
+  --Chelsea-dark: #034694;
+  --Chelsea-light: #dba111;
+  --Arsenal-dark: #db0007;
+  --Arsenal-light: #9c824a;
+  --Manchester-City-dark: #6CABDD;
+  --Manchester-City-light: #FFFFFF;
+  --Tottenham-Hotspur-dark: #132257;
+  --Tottenham-Hotspur-light: #FFFFFF;
+  --Leicester-City-dark: #003090;
+  --Leicester-City-light: #FDBE11;
+}
+
+.Alan-Shearer { 
+
+}
+
+g.Alan-Shearer path { 
+  stroke: var(--Blackburn-Rovers-dark) !important;
+}
+
+div.Alan-Shearer {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Alan-Shearer:hover {
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+div.Alan-Shearer:active {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+div.Alan-Shearer.picked {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Alan-Shearer.picked:hover {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+Alan-Shearer.name { 
+
+}
+
+div.Alan-Shearer.season { 
+
+}
+
+.Alan-Shearer.S1995-96 { 
+
+}
+
+g.Alan-Shearer.S1995-96 path.highlight {
+  stroke: var(--Blackburn-Rovers-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Blackburn-Rovers-light)) !important;
+}
+
+.Alan-Shearer.S1996-97 { 
+
+}
+
+g.Alan-Shearer.S1996-97 path.highlight {
+  stroke: var(--Newcastle-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Newcastle-United-light)) !important;
+}
+
+.Chris-Sutton { 
+
+}
+
+g.Chris-Sutton path { 
+  stroke: var(--Blackburn-Rovers-dark) !important;
+}
+
+div.Chris-Sutton {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Chris-Sutton:hover {
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+div.Chris-Sutton:active {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+div.Chris-Sutton.picked {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Chris-Sutton.picked:hover {
+  background-color: var(--Blackburn-Rovers-dark);
+  color: var(--Blackburn-Rovers-light);
+  border: 2px var(--Blackburn-Rovers-light) solid; 
+}
+
+Chris-Sutton.name { 
+
+}
+
+div.Chris-Sutton.season { 
+
+}
+
+.Chris-Sutton.S1997-98 { 
+
+}
+
+g.Chris-Sutton.S1997-98 path.highlight {
+  stroke: var(--Blackburn-Rovers-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Blackburn-Rovers-light)) !important;
+}
+
+.Dion-Dublin { 
+
+}
+
+g.Dion-Dublin path { 
+  stroke: var(--Coventry-City-dark) !important;
+}
+
+div.Dion-Dublin {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Dion-Dublin:hover {
+  color: var(--Coventry-City-light);
+  border: 2px var(--Coventry-City-light) solid; 
+}
+
+div.Dion-Dublin:active {
+  background-color: var(--Coventry-City-dark);
+  color: var(--Coventry-City-light);
+  border: 2px var(--Coventry-City-light) solid; 
+}
+
+div.Dion-Dublin.picked {
+  background-color: var(--Coventry-City-dark);
+  color: var(--Coventry-City-light);
+  border: 2px var(--Coventry-City-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Dion-Dublin.picked:hover {
+  background-color: var(--Coventry-City-dark);
+  color: var(--Coventry-City-light);
+  border: 2px var(--Coventry-City-light) solid; 
+}
+
+Dion-Dublin.name { 
+
+}
+
+div.Dion-Dublin.season { 
+
+}
+
+.Dion-Dublin.S1997-98 { 
+
+}
+
+g.Dion-Dublin.S1997-98 path.highlight {
+  stroke: var(--Coventry-City-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Coventry-City-light)) !important;
+}
+
+.Michael-Owen { 
+
+}
+
+g.Michael-Owen path { 
+  stroke: var(--Liverpool-dark) !important;
+}
+
+div.Michael-Owen {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Michael-Owen:hover {
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Michael-Owen:active {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Michael-Owen.picked {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Michael-Owen.picked:hover {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+Michael-Owen.name { 
+
+}
+
+div.Michael-Owen.season { 
+
+}
+
+.Michael-Owen.S1997-98 { 
+
+}
+
+g.Michael-Owen.S1997-98 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Michael-Owen.S1998-99 { 
+
+}
+
+g.Michael-Owen.S1998-99 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Dwight-Yorke { 
+
+}
+
+g.Dwight-Yorke path { 
+  stroke: var(--Manchester-United-dark) !important;
+}
+
+div.Dwight-Yorke {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Dwight-Yorke:hover {
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Dwight-Yorke:active {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Dwight-Yorke.picked {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Dwight-Yorke.picked:hover {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+Dwight-Yorke.name { 
+
+}
+
+div.Dwight-Yorke.season { 
+
+}
+
+.Dwight-Yorke.S1998-99 { 
+
+}
+
+g.Dwight-Yorke.S1998-99 path.highlight {
+  stroke: var(--Manchester-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-United-light)) !important;
+}
+
+.Jimmy-Floyd-Hasselbaink { 
+
+}
+
+g.Jimmy-Floyd-Hasselbaink path { 
+  stroke: var(--Leeds-United-dark) !important;
+}
+
+div.Jimmy-Floyd-Hasselbaink {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Jimmy-Floyd-Hasselbaink:hover {
+  color: var(--Leeds-United-light);
+  border: 2px var(--Leeds-United-light) solid; 
+}
+
+div.Jimmy-Floyd-Hasselbaink:active {
+  background-color: var(--Leeds-United-dark);
+  color: var(--Leeds-United-light);
+  border: 2px var(--Leeds-United-light) solid; 
+}
+
+div.Jimmy-Floyd-Hasselbaink.picked {
+  background-color: var(--Leeds-United-dark);
+  color: var(--Leeds-United-light);
+  border: 2px var(--Leeds-United-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Jimmy-Floyd-Hasselbaink.picked:hover {
+  background-color: var(--Leeds-United-dark);
+  color: var(--Leeds-United-light);
+  border: 2px var(--Leeds-United-light) solid; 
+}
+
+Jimmy-Floyd-Hasselbaink.name { 
+
+}
+
+div.Jimmy-Floyd-Hasselbaink.season { 
+
+}
+
+.Jimmy-Floyd-Hasselbaink.S1998-99 { 
+
+}
+
+g.Jimmy-Floyd-Hasselbaink.S1998-99 path.highlight {
+  stroke: var(--Leeds-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Leeds-United-light)) !important;
+}
+
+.Kevin-Phillips { 
+
+}
+
+g.Kevin-Phillips path { 
+  stroke: var(--Sunderland-dark) !important;
+}
+
+div.Kevin-Phillips {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Kevin-Phillips:hover {
+  color: var(--Sunderland-light);
+  border: 2px var(--Sunderland-light) solid; 
+}
+
+div.Kevin-Phillips:active {
+  background-color: var(--Sunderland-dark);
+  color: var(--Sunderland-light);
+  border: 2px var(--Sunderland-light) solid; 
+}
+
+div.Kevin-Phillips.picked {
+  background-color: var(--Sunderland-dark);
+  color: var(--Sunderland-light);
+  border: 2px var(--Sunderland-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Kevin-Phillips.picked:hover {
+  background-color: var(--Sunderland-dark);
+  color: var(--Sunderland-light);
+  border: 2px var(--Sunderland-light) solid; 
+}
+
+Kevin-Phillips.name { 
+
+}
+
+div.Kevin-Phillips.season { 
+
+}
+
+.Kevin-Phillips.S1999-00 { 
+
+}
+
+g.Kevin-Phillips.S1999-00 path.highlight {
+  stroke: var(--Sunderland-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Sunderland-light)) !important;
+}
+
+.Jimmy-Floyd-Hasselbaink.S2000-01 { 
+
+}
+
+g.Jimmy-Floyd-Hasselbaink.S2000-01 path.highlight {
+  stroke: var(--Chelsea-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Chelsea-light)) !important;
+}
+
+.Thierry-Henry { 
+
+}
+
+g.Thierry-Henry path { 
+  stroke: var(--Arsenal-dark) !important;
+}
+
+div.Thierry-Henry {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Thierry-Henry:hover {
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Thierry-Henry:active {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Thierry-Henry.picked {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Thierry-Henry.picked:hover {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+Thierry-Henry.name { 
+
+}
+
+div.Thierry-Henry.season { 
+
+}
+
+.Thierry-Henry.S2001-02 { 
+
+}
+
+g.Thierry-Henry.S2001-02 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Ruud-van-Nistelrooy { 
+
+}
+
+g.Ruud-van-Nistelrooy path { 
+  stroke: var(--Manchester-United-dark) !important;
+}
+
+div.Ruud-van-Nistelrooy {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Ruud-van-Nistelrooy:hover {
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Ruud-van-Nistelrooy:active {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Ruud-van-Nistelrooy.picked {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Ruud-van-Nistelrooy.picked:hover {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+Ruud-van-Nistelrooy.name { 
+
+}
+
+div.Ruud-van-Nistelrooy.season { 
+
+}
+
+.Ruud-van-Nistelrooy.S2002-03 { 
+
+}
+
+g.Ruud-van-Nistelrooy.S2002-03 path.highlight {
+  stroke: var(--Manchester-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-United-light)) !important;
+}
+
+.Thierry-Henry.S2003-04 { 
+
+}
+
+g.Thierry-Henry.S2003-04 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Thierry-Henry.S2004-05 { 
+
+}
+
+g.Thierry-Henry.S2004-05 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Thierry-Henry.S2005-06 { 
+
+}
+
+g.Thierry-Henry.S2005-06 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Didier-Drogba { 
+
+}
+
+g.Didier-Drogba path { 
+  stroke: var(--Chelsea-dark) !important;
+}
+
+div.Didier-Drogba {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Didier-Drogba:hover {
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+div.Didier-Drogba:active {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+div.Didier-Drogba.picked {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Didier-Drogba.picked:hover {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+Didier-Drogba.name { 
+
+}
+
+div.Didier-Drogba.season { 
+
+}
+
+.Didier-Drogba.S2006-07 { 
+
+}
+
+g.Didier-Drogba.S2006-07 path.highlight {
+  stroke: var(--Chelsea-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Chelsea-light)) !important;
+}
+
+.Cristiano-Ronaldo { 
+
+}
+
+g.Cristiano-Ronaldo path { 
+  stroke: var(--Manchester-United-dark) !important;
+}
+
+div.Cristiano-Ronaldo {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Cristiano-Ronaldo:hover {
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Cristiano-Ronaldo:active {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Cristiano-Ronaldo.picked {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Cristiano-Ronaldo.picked:hover {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+Cristiano-Ronaldo.name { 
+
+}
+
+div.Cristiano-Ronaldo.season { 
+
+}
+
+.Cristiano-Ronaldo.S2007-08 { 
+
+}
+
+g.Cristiano-Ronaldo.S2007-08 path.highlight {
+  stroke: var(--Manchester-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-United-light)) !important;
+}
+
+.Nicolas-Anelka { 
+
+}
+
+g.Nicolas-Anelka path { 
+  stroke: var(--Chelsea-dark) !important;
+}
+
+div.Nicolas-Anelka {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Nicolas-Anelka:hover {
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+div.Nicolas-Anelka:active {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+div.Nicolas-Anelka.picked {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Nicolas-Anelka.picked:hover {
+  background-color: var(--Chelsea-dark);
+  color: var(--Chelsea-light);
+  border: 2px var(--Chelsea-light) solid; 
+}
+
+Nicolas-Anelka.name { 
+
+}
+
+div.Nicolas-Anelka.season { 
+
+}
+
+.Nicolas-Anelka.S2008-09 { 
+
+}
+
+g.Nicolas-Anelka.S2008-09 path.highlight {
+  stroke: var(--Chelsea-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Chelsea-light)) !important;
+}
+
+.Didier-Drogba.S2009-10 { 
+
+}
+
+g.Didier-Drogba.S2009-10 path.highlight {
+  stroke: var(--Chelsea-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Chelsea-light)) !important;
+}
+
+.Carlos-Tevez { 
+
+}
+
+g.Carlos-Tevez path { 
+  stroke: var(--Manchester-City-dark) !important;
+}
+
+div.Carlos-Tevez {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Carlos-Tevez:hover {
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Carlos-Tevez:active {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Carlos-Tevez.picked {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Carlos-Tevez.picked:hover {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+Carlos-Tevez.name { 
+
+}
+
+div.Carlos-Tevez.season { 
+
+}
+
+.Carlos-Tevez.S2010-11 { 
+
+}
+
+g.Carlos-Tevez.S2010-11 path.highlight {
+  stroke: var(--Manchester-City-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-City-light)) !important;
+}
+
+.Dimitar-Berbatov { 
+
+}
+
+g.Dimitar-Berbatov path { 
+  stroke: var(--Manchester-United-dark) !important;
+}
+
+div.Dimitar-Berbatov {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Dimitar-Berbatov:hover {
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Dimitar-Berbatov:active {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+div.Dimitar-Berbatov.picked {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Dimitar-Berbatov.picked:hover {
+  background-color: var(--Manchester-United-dark);
+  color: var(--Manchester-United-light);
+  border: 2px var(--Manchester-United-light) solid; 
+}
+
+Dimitar-Berbatov.name { 
+
+}
+
+div.Dimitar-Berbatov.season { 
+
+}
+
+.Dimitar-Berbatov.S2010-11 { 
+
+}
+
+g.Dimitar-Berbatov.S2010-11 path.highlight {
+  stroke: var(--Manchester-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-United-light)) !important;
+}
+
+.Robin-van-Persie { 
+
+}
+
+g.Robin-van-Persie path { 
+  stroke: var(--Arsenal-dark) !important;
+}
+
+div.Robin-van-Persie {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Robin-van-Persie:hover {
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Robin-van-Persie:active {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Robin-van-Persie.picked {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Robin-van-Persie.picked:hover {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+Robin-van-Persie.name { 
+
+}
+
+div.Robin-van-Persie.season { 
+
+}
+
+.Robin-van-Persie.S2011-12 { 
+
+}
+
+g.Robin-van-Persie.S2011-12 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Robin-van-Persie.S2012-13 { 
+
+}
+
+g.Robin-van-Persie.S2012-13 path.highlight {
+  stroke: var(--Manchester-United-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-United-light)) !important;
+}
+
+.Luis-Suárez { 
+
+}
+
+g.Luis-Suárez path { 
+  stroke: var(--Liverpool-dark) !important;
+}
+
+div.Luis-Suárez {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Luis-Suárez:hover {
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Luis-Suárez:active {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Luis-Suárez.picked {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Luis-Suárez.picked:hover {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+Luis-Suárez.name { 
+
+}
+
+div.Luis-Suárez.season { 
+
+}
+
+.Luis-Suárez.S2013-14 { 
+
+}
+
+g.Luis-Suárez.S2013-14 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Sergio-Agüero { 
+
+}
+
+g.Sergio-Agüero path { 
+  stroke: var(--Manchester-City-dark) !important;
+}
+
+div.Sergio-Agüero {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Sergio-Agüero:hover {
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Sergio-Agüero:active {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Sergio-Agüero.picked {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Sergio-Agüero.picked:hover {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+Sergio-Agüero.name { 
+
+}
+
+div.Sergio-Agüero.season { 
+
+}
+
+.Sergio-Agüero.S2014-15 { 
+
+}
+
+g.Sergio-Agüero.S2014-15 path.highlight {
+  stroke: var(--Manchester-City-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-City-light)) !important;
+}
+
+.Harry-Kane { 
+
+}
+
+g.Harry-Kane path { 
+  stroke: var(--Tottenham-Hotspur-dark) !important;
+}
+
+div.Harry-Kane {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Harry-Kane:hover {
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+div.Harry-Kane:active {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+div.Harry-Kane.picked {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Harry-Kane.picked:hover {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+Harry-Kane.name { 
+
+}
+
+div.Harry-Kane.season { 
+
+}
+
+.Harry-Kane.S2015-16 { 
+
+}
+
+g.Harry-Kane.S2015-16 path.highlight {
+  stroke: var(--Tottenham-Hotspur-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Tottenham-Hotspur-light)) !important;
+}
+
+.Harry-Kane.S2016-17 { 
+
+}
+
+g.Harry-Kane.S2016-17 path.highlight {
+  stroke: var(--Tottenham-Hotspur-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Tottenham-Hotspur-light)) !important;
+}
+
+.Mohamed-Salah { 
+
+}
+
+g.Mohamed-Salah path { 
+  stroke: var(--Liverpool-dark) !important;
+}
+
+div.Mohamed-Salah {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Mohamed-Salah:hover {
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Mohamed-Salah:active {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Mohamed-Salah.picked {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Mohamed-Salah.picked:hover {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+Mohamed-Salah.name { 
+
+}
+
+div.Mohamed-Salah.season { 
+
+}
+
+.Mohamed-Salah.S2017-18 { 
+
+}
+
+g.Mohamed-Salah.S2017-18 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Pierre-Emerick-Aubameyang { 
+
+}
+
+g.Pierre-Emerick-Aubameyang path { 
+  stroke: var(--Arsenal-dark) !important;
+}
+
+div.Pierre-Emerick-Aubameyang {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Pierre-Emerick-Aubameyang:hover {
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Pierre-Emerick-Aubameyang:active {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+div.Pierre-Emerick-Aubameyang.picked {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Pierre-Emerick-Aubameyang.picked:hover {
+  background-color: var(--Arsenal-dark);
+  color: var(--Arsenal-light);
+  border: 2px var(--Arsenal-light) solid; 
+}
+
+Pierre-Emerick-Aubameyang.name { 
+
+}
+
+div.Pierre-Emerick-Aubameyang.season { 
+
+}
+
+.Pierre-Emerick-Aubameyang.S2018-19 { 
+
+}
+
+g.Pierre-Emerick-Aubameyang.S2018-19 path.highlight {
+  stroke: var(--Arsenal-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Arsenal-light)) !important;
+}
+
+.Sadio-Mané { 
+
+}
+
+g.Sadio-Mané path { 
+  stroke: var(--Liverpool-dark) !important;
+}
+
+div.Sadio-Mané {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Sadio-Mané:hover {
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Sadio-Mané:active {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+div.Sadio-Mané.picked {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Sadio-Mané.picked:hover {
+  background-color: var(--Liverpool-dark);
+  color: var(--Liverpool-light);
+  border: 2px var(--Liverpool-light) solid; 
+}
+
+Sadio-Mané.name { 
+
+}
+
+div.Sadio-Mané.season { 
+
+}
+
+.Sadio-Mané.S2018-19 { 
+
+}
+
+g.Sadio-Mané.S2018-19 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Mohamed-Salah.S2018-19 { 
+
+}
+
+g.Mohamed-Salah.S2018-19 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Jamie-Vardy { 
+
+}
+
+g.Jamie-Vardy path { 
+  stroke: var(--Leicester-City-dark) !important;
+}
+
+div.Jamie-Vardy {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Jamie-Vardy:hover {
+  color: var(--Leicester-City-light);
+  border: 2px var(--Leicester-City-light) solid; 
+}
+
+div.Jamie-Vardy:active {
+  background-color: var(--Leicester-City-dark);
+  color: var(--Leicester-City-light);
+  border: 2px var(--Leicester-City-light) solid; 
+}
+
+div.Jamie-Vardy.picked {
+  background-color: var(--Leicester-City-dark);
+  color: var(--Leicester-City-light);
+  border: 2px var(--Leicester-City-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Jamie-Vardy.picked:hover {
+  background-color: var(--Leicester-City-dark);
+  color: var(--Leicester-City-light);
+  border: 2px var(--Leicester-City-light) solid; 
+}
+
+Jamie-Vardy.name { 
+
+}
+
+div.Jamie-Vardy.season { 
+
+}
+
+.Jamie-Vardy.S2019-20 { 
+
+}
+
+g.Jamie-Vardy.S2019-20 path.highlight {
+  stroke: var(--Leicester-City-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Leicester-City-light)) !important;
+}
+
+.Harry-Kane.S2020-21 { 
+
+}
+
+g.Harry-Kane.S2020-21 path.highlight {
+  stroke: var(--Tottenham-Hotspur-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Tottenham-Hotspur-light)) !important;
+}
+
+.Mohamed-Salah.S2021-22 { 
+
+}
+
+g.Mohamed-Salah.S2021-22 path.highlight {
+  stroke: var(--Liverpool-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Liverpool-light)) !important;
+}
+
+.Son-Heung-min { 
+
+}
+
+g.Son-Heung-min path { 
+  stroke: var(--Tottenham-Hotspur-dark) !important;
+}
+
+div.Son-Heung-min {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Son-Heung-min:hover {
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+div.Son-Heung-min:active {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+div.Son-Heung-min.picked {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Son-Heung-min.picked:hover {
+  background-color: var(--Tottenham-Hotspur-dark);
+  color: var(--Tottenham-Hotspur-light);
+  border: 2px var(--Tottenham-Hotspur-light) solid; 
+}
+
+Son-Heung-min.name { 
+
+}
+
+div.Son-Heung-min.season { 
+
+}
+
+.Son-Heung-min.S2021-22 { 
+
+}
+
+g.Son-Heung-min.S2021-22 path.highlight {
+  stroke: var(--Tottenham-Hotspur-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Tottenham-Hotspur-light)) !important;
+}
+
+.Erling-Haaland { 
+
+}
+
+g.Erling-Haaland path { 
+  stroke: var(--Manchester-City-dark) !important;
+}
+
+div.Erling-Haaland {
+  color: white;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px transparent solid; 
+}
+
+div.Erling-Haaland:hover {
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Erling-Haaland:active {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+div.Erling-Haaland.picked {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.Erling-Haaland.picked:hover {
+  background-color: var(--Manchester-City-dark);
+  color: var(--Manchester-City-light);
+  border: 2px var(--Manchester-City-light) solid; 
+}
+
+Erling-Haaland.name { 
+
+}
+
+div.Erling-Haaland.season { 
+
+}
+
+.Erling-Haaland.S2022-23 { 
+
+}
+
+g.Erling-Haaland.S2022-23 path.highlight {
+  stroke: var(--Manchester-City-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--Manchester-City-light)) !important;
+}
+

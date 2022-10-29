@@ -1,0 +1,221 @@
+html {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--gradient-color);
+    height: min-content;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: .7rem;
+    margin-top: -73px;
+    min-width: 1100px;
+    overflow: auto;
+    transform: scale(0.81);
+  }
+
+  /* Image elements and gradient overlays -------------------------- */
+  #image-container {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: fit-content;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    transform: scale(1.05);
+    overflow: hidden;
+  }
+
+  #image-container > img {
+
+  }
+  
+  div.gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+
+  div.gradient.diag {
+    background: linear-gradient(to bottom right, var(--gradient-color) 5%,transparent 25%, transparent 35%, var(--gradient-color) 80%);
+  }
+
+  div.gradient.horizontal {
+    background: linear-gradient(to right, var(--gradient-color) 10%,transparent 45%, transparent 60%, var(--gradient-color) 98%);
+  }
+
+  div.gradient.vertical {
+    background: linear-gradient(to bottom, var(--gradient-color) 5%,transparent 20%, transparent 40%, var(--gradient-color) 100%);
+  }  
+
+  /* The lines in the Graph --------------------------------- */
+  .line > path {
+    opacity: 0.22;
+    filter: drop-shadow(0 0 0.5px #222);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  
+  .line > path.invis {
+   opacity: 0;
+  }
+  
+  .line > path.pop {
+    opacity: 1;
+    stroke-width: 0.9% !important;
+    filter: drop-shadow(0 0 1.5px #000) !important;
+  }
+  
+  /* SVG elements -----------------------------------------*/
+  #svg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 60ch;
+    max-width: 138ch;
+    padding: rem;
+  }
+
+  #svg-container > svg {
+    margin-top: 5rem;
+  }
+
+  /* Players list/legend ----------------------------------*/
+  
+  #player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20ch;
+  }
+  
+  #player-container > div {
+    display: flex;
+    justify-content: left;
+    margin-top: 2px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+  }
+
+  #player-container > div:hover {
+    filter: drop-shadow(0 0 5px #000) !important;
+  }
+  
+  #player-container div:hover {
+  
+  }
+  
+  #player-container > div:active {
+    filter: drop-shadow(0 0 2px #000) !important;
+  }
+  
+  #player-container div div {
+    margin-right: 5px;
+  }
+  
+  #player-container div .name {
+    flex: 1;
+   -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  #player-container div .season {
+   -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  #player-container > #special-container {
+    justify-content: right;
+  }
+
+  #special-container > div {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  #special-container > div:hover { 
+    color: white;
+  }
+
+  #special-container > div:active { 
+    color: black;
+  }
+
+  /* Graph elements section (elements other than the lines)------------- */
+
+  /* y-axis numbers */
+  g#matplotlib\.axis_2 > g > g:last-child > g {
+    fill:var(--yaxes-color) !important;
+  }
+
+  /* plot horizontal grid lines */
+  g#matplotlib\.axis_2 > g > g:first-child > path {
+    stroke:var(--yaxes-color) !important;
+  }
+
+  /* x-axis numbers */
+  g#matplotlib\.axis_1 > g > g:last-child > g {
+    fill:var(--xaxes-color) !important;
+  }
+
+  /* the axes labels placed near x-axis */
+  div.label {
+    color: var(--xaxes-color);
+  }
+
+  div.label.axis {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8ch;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #x-axis-label {
+    position: fixed;
+    top: 56.4rem;
+    margin: 0;
+    margin-right: 6.3rem;
+    padding: 0;
+    width: fit-content;
+  }
+
+  #y-axis-label {
+    position: fixed;
+    top: 55.6rem;
+    margin: 0;
+    margin-left: 40rem;
+    padding: 0;
+    width: fit-content;
+    transform: rotate(-90deg);
+  }
+
+  div.label.title {
+    position: fixed;
+    top: 0.5rem;
+    margin: 0;
+    margin-right: 2rem;
+    padding: 0;
+    width: fit-content;
+    font-size: 5ch;
+    color: white;
+  }
