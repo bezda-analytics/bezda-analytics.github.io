@@ -160,13 +160,11 @@ Also, you can mention the particular version of Python you want to install, show
 sudo apt-get install python3.8 
 ```
 
-#### Windows:
+#### Windows and Mac:
 
-You can find Python installers for Windows [here](https://www.python.org/downloads/windows/). You can find installation instructions [here](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
+* Installers for Windows [here](https://www.python.org/downloads/windows/) and installation instructions [here](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
 
-#### Mac:
-
-You can find Python installers for Windows [here](https://www.python.org/downloads/macos/). You can find installation instructions [here](https://www.dataquest.io/blog/installing-python-on-mac/).
+* Installers for Windows [here](https://www.python.org/downloads/macos/) and installation instructions [here](https://www.dataquest.io/blog/installing-python-on-mac/).
 
 ### Python packages
 
