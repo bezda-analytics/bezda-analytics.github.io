@@ -188,8 +188,6 @@ You can find Python installers for Windows [here](https://www.python.org/downloa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
