@@ -94,7 +94,7 @@
 
  This Jupyter notebook project obtains data (from [FBRef.com](https://fbref.com/en/comps/9/Premier-League-Stats)) on the goals scored by each Premier League Golden Boot winner during the season the winner won the award. Then the data is used to generate running totals/cumulative sums plots so that the winner's goal scoring trajectories can be compared. <br />
 
-<p align="center" style="border: 4px blue;font-size: large;"> <a href="https://bezda-analytics.github.io/golden-boot-v1/Haaland/">View Demo</a> </p>
+<p align="center" style="border: 4px blue;font-size: large;"> <a href="https://bezda-analytics.github.io/golden-boot-v1/Haaland/" style="border: 4px blue;font-size: large;">View Demo</a> </p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
