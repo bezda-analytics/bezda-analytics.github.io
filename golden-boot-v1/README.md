@@ -162,21 +162,21 @@ sudo apt-get install python3.8
 
 #### Windows and Mac:
 
-* Installers for Windows [here](https://www.python.org/downloads/windows/) and installation instructions [here](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
+* [Installers for Windows](https://www.python.org/downloads/windows/) and [installation instructions](https://www.tomshardware.com/how-to/install-python-on-windows-10-and-11#:~:text=Open%20a%20browser%20to%20the%20Python%20website%20and%20download%20the%20Windows%20installer.&text=2.,on%20Install%20now%20to%20begin.).
 
-* Installers for Windows [here](https://www.python.org/downloads/macos/) and installation instructions [here](https://www.dataquest.io/blog/installing-python-on-mac/).
+* [Installers for Windows](https://www.python.org/downloads/macos/) and [installation instructions](https://www.dataquest.io/blog/installing-python-on-mac/).
 
 ### Python packages
 
-* Installation instructions for Jupyter [here](https://jupyter.org/install)
+* [Installation instructions for Jupyter](https://jupyter.org/install)
 
-* Installation instructions for pandas [here](https://pandas.pydata.org/docs/getting_started/install.html)
+* [Installation instructions for pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 
-* Instructions for matplotlib [here](https://matplotlib.org/stable/users/installing/index.html)
+* [Instructions for matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
-* Instructions for numpy [here](https://numpy.org/install/)
+* [Instructions for numpy](https://numpy.org/install/)
 
-* Instructions for Beautiful Soup 4 [here](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
+* [Instructions for Beautiful Soup 4](https://www.geeksforgeeks.org/beautifulsoup-installation-python/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
