@@ -84,7 +84,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Golden Boot Plot Generator][project-screenshot]](https://bezda-analytics.github.io/golden-boot-v1/images/golden-boot-project-example-screenshot1.png)
+[![Golden Boot Plot Generator Screenshot][project-screenshot]](https://bezda-analytics.github.io/golden-boot-v1/images/golden-boot-project-example-screenshot1.png)
 
 Generate interactive plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons
 
