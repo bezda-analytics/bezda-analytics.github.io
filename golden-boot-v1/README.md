@@ -33,7 +33,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1">
+  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/">
     <img src="images/logo.png" alt="Logo" width="196" height="106">
   </a>
 
@@ -84,6 +84,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<div align="center">
+  <a href="https://github.com/bezda-analytics/bezda-analytics.github.io/tree/main/golden-boot-v1/images/golden-boot-project-example-screenshot1.png">
+    <img src="images/golden-boot-project-example-screenshot1.png" alt="Logo" width="775" height="654">
+  </a>
+</div>
 [![Golden Boot Plot Generator Screenshot][project-screenshot]](images/golden-boot-project-example-screenshot1.png)
 
 Generate interactive plots of Premier League Golden Boot winners' running goal totals through their winning Premier League seasons
