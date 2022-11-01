@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --xaxes-color: #2f4f4f;
+  --yaxes-color: #2f4f4f;
+  --gradient-color: #ffffff;
+  --group-Ryzen5000-dark: #d46128;
+  --group-Ryzen5000-light: #ffed30;
+  --group-12thGen-dark: #21689d;
+  --group-12thGen-light: #a5fcfe;
+  --group-Ryzen7000-dark: #7b3817;
+  --group-Ryzen7000-light: #ffed30;
+  --group-13thGen-dark: #18354d;
+  --group-13thGen-light: #a5fcfe;
+}
+
+.group-Ryzen5000 { 
+
+}
+
+g.group-Ryzen5000 path { 
+  stroke: var(--group-Ryzen5000-dark) !important;
+}
+
+div.group-Ryzen5000 {
+  color: #2f4f4f;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 4px transparent solid; 
+}
+
+div.group-Ryzen5000:hover {
+  color: var(--group-Ryzen5000-dark);
+  border: 4px var(--group-Ryzen5000-dark) solid; 
+}
+
+div.group-Ryzen5000:active {
+  background-color: var(--group-Ryzen5000-dark);
+  color: var(--group-Ryzen5000-light);
+  border: 4px var(--group-Ryzen5000-dark) solid; 
+}
+
+div.group-Ryzen5000.picked {
+  background-color: var(--group-Ryzen5000-dark);
+  color: var(--group-Ryzen5000-light);
+  border: 4px var(--group-Ryzen5000-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.group-Ryzen5000.picked:hover {
+  background-color: var(--group-Ryzen5000-dark);
+  color: var(--group-Ryzen5000-light);
+  border: 4px var(--group-Ryzen5000-light) solid; 
+}
+
+group-Ryzen5000.left { 
+
+}
+
+div.group-Ryzen5000.right { 
+
+}
+
+.group-Ryzen5000.item-5950X { 
+
+}
+
+g.group-Ryzen5000.item-5950X path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5900X { 
+
+}
+
+g.group-Ryzen5000.item-5900X path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5800X3D { 
+
+}
+
+g.group-Ryzen5000.item-5800X3D path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5800X { 
+
+}
+
+g.group-Ryzen5000.item-5800X path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5700X { 
+
+}
+
+g.group-Ryzen5000.item-5700X path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5700G { 
+
+}
+
+g.group-Ryzen5000.item-5700G path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5600X { 
+
+}
+
+g.group-Ryzen5000.item-5600X path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5600G { 
+
+}
+
+g.group-Ryzen5000.item-5600G path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5600 { 
+
+}
+
+g.group-Ryzen5000.item-5600 path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-Ryzen5000.item-5500 { 
+
+}
+
+g.group-Ryzen5000.item-5500 path.highlight {
+  stroke: var(--group-Ryzen5000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen5000-light)) !important;
+}
+
+.group-12thGen { 
+
+}
+
+g.group-12thGen path { 
+  stroke: var(--group-12thGen-dark) !important;
+}
+
+div.group-12thGen {
+  color: #2f4f4f;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 4px transparent solid; 
+}
+
+div.group-12thGen:hover {
+  color: var(--group-12thGen-dark);
+  border: 4px var(--group-12thGen-dark) solid; 
+}
+
+div.group-12thGen:active {
+  background-color: var(--group-12thGen-dark);
+  color: var(--group-12thGen-light);
+  border: 4px var(--group-12thGen-dark) solid; 
+}
+
+div.group-12thGen.picked {
+  background-color: var(--group-12thGen-dark);
+  color: var(--group-12thGen-light);
+  border: 4px var(--group-12thGen-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.group-12thGen.picked:hover {
+  background-color: var(--group-12thGen-dark);
+  color: var(--group-12thGen-light);
+  border: 4px var(--group-12thGen-light) solid; 
+}
+
+group-12thGen.left { 
+
+}
+
+div.group-12thGen.right { 
+
+}
+
+.group-12thGen.item-12900K { 
+
+}
+
+g.group-12thGen.item-12900K path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-12thGen.item-12700K { 
+
+}
+
+g.group-12thGen.item-12700K path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-12thGen.item-12700KF { 
+
+}
+
+g.group-12thGen.item-12700KF path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-12thGen.item-12600K { 
+
+}
+
+g.group-12thGen.item-12600K path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-12thGen.item-12600KF { 
+
+}
+
+g.group-12thGen.item-12600KF path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-12thGen.item-12400F { 
+
+}
+
+g.group-12thGen.item-12400F path.highlight {
+  stroke: var(--group-12thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-12thGen-light)) !important;
+}
+
+.group-Ryzen7000 { 
+
+}
+
+g.group-Ryzen7000 path { 
+  stroke: var(--group-Ryzen7000-dark) !important;
+}
+
+div.group-Ryzen7000 {
+  color: #2f4f4f;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 4px transparent solid; 
+}
+
+div.group-Ryzen7000:hover {
+  color: var(--group-Ryzen7000-dark);
+  border: 4px var(--group-Ryzen7000-dark) solid; 
+}
+
+div.group-Ryzen7000:active {
+  background-color: var(--group-Ryzen7000-dark);
+  color: var(--group-Ryzen7000-light);
+  border: 4px var(--group-Ryzen7000-dark) solid; 
+}
+
+div.group-Ryzen7000.picked {
+  background-color: var(--group-Ryzen7000-dark);
+  color: var(--group-Ryzen7000-light);
+  border: 4px var(--group-Ryzen7000-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.group-Ryzen7000.picked:hover {
+  background-color: var(--group-Ryzen7000-dark);
+  color: var(--group-Ryzen7000-light);
+  border: 4px var(--group-Ryzen7000-light) solid; 
+}
+
+group-Ryzen7000.left { 
+
+}
+
+div.group-Ryzen7000.right { 
+
+}
+
+.group-Ryzen7000.item-7950X { 
+
+}
+
+g.group-Ryzen7000.item-7950X path.highlight {
+  stroke: var(--group-Ryzen7000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen7000-light)) !important;
+}
+
+.group-Ryzen7000.item-7900X { 
+
+}
+
+g.group-Ryzen7000.item-7900X path.highlight {
+  stroke: var(--group-Ryzen7000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen7000-light)) !important;
+}
+
+.group-Ryzen7000.item-7700X { 
+
+}
+
+g.group-Ryzen7000.item-7700X path.highlight {
+  stroke: var(--group-Ryzen7000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen7000-light)) !important;
+}
+
+.group-Ryzen7000.item-7600X { 
+
+}
+
+g.group-Ryzen7000.item-7600X path.highlight {
+  stroke: var(--group-Ryzen7000-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-Ryzen7000-light)) !important;
+}
+
+.group-13thGen { 
+
+}
+
+g.group-13thGen path { 
+  stroke: var(--group-13thGen-dark) !important;
+}
+
+div.group-13thGen {
+  color: #2f4f4f;
+ -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 4px transparent solid; 
+}
+
+div.group-13thGen:hover {
+  color: var(--group-13thGen-dark);
+  border: 4px var(--group-13thGen-dark) solid; 
+}
+
+div.group-13thGen:active {
+  background-color: var(--group-13thGen-dark);
+  color: var(--group-13thGen-light);
+  border: 4px var(--group-13thGen-dark) solid; 
+}
+
+div.group-13thGen.picked {
+  background-color: var(--group-13thGen-dark);
+  color: var(--group-13thGen-light);
+  border: 4px var(--group-13thGen-dark) solid;
+  filter: drop-shadow(0 0 1px #000) !important; 
+}
+
+div.group-13thGen.picked:hover {
+  background-color: var(--group-13thGen-dark);
+  color: var(--group-13thGen-light);
+  border: 4px var(--group-13thGen-light) solid; 
+}
+
+group-13thGen.left { 
+
+}
+
+div.group-13thGen.right { 
+
+}
+
+.group-13thGen.item-13900K { 
+
+}
+
+g.group-13thGen.item-13900K path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
+.group-13thGen.item-13900KF { 
+
+}
+
+g.group-13thGen.item-13900KF path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
+.group-13thGen.item-13700K { 
+
+}
+
+g.group-13thGen.item-13700K path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
+.group-13thGen.item-13700KF { 
+
+}
+
+g.group-13thGen.item-13700KF path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
+.group-13thGen.item-13600K { 
+
+}
+
+g.group-13thGen.item-13600K path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
+.group-13thGen.item-13600KF { 
+
+}
+
+g.group-13thGen.item-13600KF path.highlight {
+  stroke: var(--group-13thGen-light) !important;
+  stroke-width: 1.2% !important;
+  filter: drop-shadow(0 0 4px var(--group-13thGen-light)) !important;
+}
+
